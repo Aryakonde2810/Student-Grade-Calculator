@@ -27,7 +27,7 @@ form.addEventListener("submit", async function (event) {
 
     try {
         const response = await fetch(
-            "http://127.0.0.1:8000/api/calculate",
+            "https://student-grade-calculator-j0mg.onrender.com/api/calculate",
             {
                 method: "POST",
                 headers: {
